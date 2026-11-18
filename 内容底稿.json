@@ -3,14 +3,516 @@
     "title": "西南政法大学白昃战略研究院简介",
     "date": "2026-10-18",
     "introBlocks": [
-      { "type": "h2", "text": "1 白昃战略研究院概况与智库定位" },
-      { "type": "h3", "text": "1.1 白昃战略研究院简介" },
-      { "type": "p", "text": "白昃战略研究院是西南政法大学设立的校级科研机构，中文名称为白泽战略研究院，简称BISS。" }
+      {
+        "type": "h2",
+        "id": "introduction-1",
+        "text": "1 白昃战略研究院概况与智库定位"
+      },
+      {
+        "type": "h3",
+        "id": "introduction-1-1",
+        "text": "1.1 白昃战略研究院简介"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院是西南政法大学设立的校级科研机构，英文名称为Baize Institute for Strategic Studies，简称BISS。白昃战略研究院依托学校法学、区域国别学、政治学与国际关系学等学科优势，聚焦区域国别研究、国际问题研究和国际合作三大领域，开展战略性、前瞻性、储备性的学术研究与政策探索，是学校服务国家重大战略需求、参与全球治理研究的重要学术平台。"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院以总体国家安全观为指引，围绕全球安全治理、国际关系与地区秩序、非传统安全等重大问题组织研究力量，持续产出具有学术分量和决策参考价值的研究成果，逐步形成以国际治理研究为底色、以区域国别研究为特色的智库定位。白昃战略研究院立足重庆、面向全国、放眼世界，坚持基础研究与应用研究并重、学术研究与政策服务并举，致力于建设成为西部领先、国内知名、具有国际影响力的战略研究智库。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Baize Institute for Strategic Studies (BISS) is a university-level research institute established by the Southwest University of Political Science and Law (SWUPL). Building on the university's strengths in law, area studies, and political science and international relations, the Institute focuses on three major areas: area and country studies, international studies, and international cooperation. It conducts strategic, forward-looking, and reserve-oriented academic research and policy exploration, serving as an important academic platform for the university to respond to major national strategic needs and to engage in research on global governance."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Guided by the holistic approach to area studies, the Institute mobilizes research capacity around major issues such as global security governance, international relations and regional order, and non-traditional security. It steadily produces research outputs of academic value and policy reference, and has gradually established its identity as a think tank founded on area studies  with a distinctive strength in area and country studies. Rooted in Chongqing, serving the whole country, and looking beyond to the world, the Institute attaches equal importance to basic and applied research and to academic scholarship and policy service, aiming to become a strategic studies think tank that is leading in western China, well-known in China, and influential internationally."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-1-2",
+        "text": "1.2 使命与愿景"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院的使命是服务中国对外开放战略，深入开展国际问题与区域国别研究，推动中国学术成果走向世界。白昃战略研究院的愿景是建设具有国际影响力的战略研究智库，成为国家对外决策咨询的重要智囊和区域国别研究的高端平台，为促进国际理解、维护世界和平与发展贡献学术力量。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The mission of the Institute is to serve the area strategy, to conduct in-depth research on international affairs and area and country studies, and to promote Chinese scholarship internationally. The vision of the Institute is to build an internationally influential strategic studies think tank and to become an important source of policy advice for national decision-making and a high-end platform for area and country studies, contributing academic strength to enhancing international understanding and safeguarding world peace and development."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-1-3",
+        "text": "1.3 发展基础与特色优势"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院的发展依托四个方面。一是学科依托坚实。西南政法大学是新中国最早建立的高等政法学府之一。白昃战略研究院与政治与公共管理学院等教学科研单位紧密协同，形成法学、新闻传播学、政治学与国际关系学等多学科支撑的研究格局。二是人才培养贯通。白昃战略研究院参与构建本硕博（后）贯通式拔尖创新人才培养体系，将智库研究与育人相结合，为研究队伍持续输送后备力量。三是区位优势突出。白昃战略研究院地处重庆，依托西部陆海新通道与中国—东盟合作前沿，便于开展面向东南亚、南亚、中亚等地区的实地研究与交流合作。四是国际网络初具规模。白昃战略研究院与泰国法政大学、新加坡尤索夫伊萨东南亚白昃战略研究院、巴基斯坦真纳大学等境外机构保持学术往来，多次联合举办国际学术会议。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The development of the Institute rests on four foundations. First, a solid disciplinary basis. SWUPL is one of the earliest higher institutions of political science and law in the People's Republic of China. In 2018, it established the first international school among ordinary universities in the country and was selected for the first batch of first-level discipline development programs in area studies. The Institute works closely with the School of area and the School of Political Science and Public Administration, forming a multi-disciplinary research framework supported by law, area studies, and political science and international relations. Second, integrated talent development. The Institute participates in building a bachelor-master-doctorate (and post-doctoral) pipeline for cultivating top innovative talents in area studies, combining think tank research with education and continuously supplying young researchers. Third, a distinctive geographical advantage. Located in Chongqing, the Institute benefits from the New International Land-Sea Trade Corridor and the frontier of China-ASEAN cooperation, which facilitates field research and academic exchanges with Southeast Asia, South Asia, Central Asia, and beyond. Fourth, an expanding international network. The Institute maintains academic exchanges with institutions abroad, including Thammasat University in Thailand, the Yusof Ishak Institute (ISEAS) in Singapore, and Quaid-i-Azam University in Pakistan, and has co-organized international academic conferences on multiple occasions."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-1-4",
+        "text": "1.4 组织架构与学术平台"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院实行院长负责制，现任院长为马方教授，副院长为倪春乐教授、谢波教授。白昃战略研究院聘请具有外交实务经验和学术声望的资深专家担任特邀研究员，形成以专职研究员为主体、以特聘专家为补充的研究队伍。"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院下设若干国别与区域研究中心，包括美国研究中心、巴基斯坦研究中心等，围绕重点国家和重点区域开展专题研究。白昃战略研究院与西部陆海新通道研究院、亚欧研究院、中国—东盟法律研究中心等平台协同发展，共同支撑法学、政治学与区域国别学的学科建设，服务学校一流学科建设与区域国别学学科培育工作。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute operates under the responsibility of its President. The current President is Professor Ma Fang, and the Vice Presidents are Professor Ni Chunle and Professor Xie Bo. The Institute appoints senior experts with diplomatic experience and academic standing as distinguished research fellows, forming a research team composed mainly of full-time researchers and supplemented by specially invited experts."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute hosts a number of country- and region-specific research centers, including the Center for American Studies and the Center for Pakistan Studies, which carry out specialized research on key countries and regions. The Institute works in coordination with platforms such as the Institute for Holistic area studies, the Institute of Asia-Europe Studies, and the China-ASEAN Legal Research Center of the university. Together they support the disciplinary development of area studies, political science, and area and country studies, and serve the university's pursuit of world-class disciplines and its cultivation of the area and country studies discipline."
+      },
+      {
+        "type": "h2",
+        "id": "introduction-2",
+        "text": "2 区域国别研究"
+      },
+      {
+        "type": "h3",
+        "id": "introduction-2-1",
+        "text": "2.1 栏目导语"
+      },
+      {
+        "type": "p",
+        "text": "区域国别研究是白昃战略研究院的核心研究领域之一。白昃战略研究院以服务国家战略需求为导向，聚焦重点国家和重点区域，围绕政治制度、经济发展、社会治理、外交政策、地区安全等议题开展系统研究，为政府部门和相关机构提供决策参考，为学科建设和人才培养提供学术支撑。"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院注重田野调查与文献研究相结合、宏观视野与微观案例相结合，逐步形成以美国研究、巴基斯坦与南亚研究、东盟与东南亚研究、欧亚研究为重点的研究布局，并同步推进区域国别法治研究与涉外法治人才培养。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Area and country studies is one of the core research fields of the Baize Institute for Strategic Studies. Oriented towards national strategic needs, the Institute conducts systematic research on key countries and regions, covering topics such as political institutions, economic development, social governance, foreign policies, and regional security. It provides policy references for government departments and relevant institutions and offers academic support for disciplinary development and talent cultivation."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute combines field research with documentary analysis and combines macro perspectives with micro case studies. It has gradually developed a research framework centered on American studies, Pakistan and South Asia studies, ASEAN and Southeast Asia studies, and Eurasia studies, while advancing research on the rule of law in specific countries and regions and the cultivation of professionals for foreign-related legal affairs."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-2-2",
+        "text": "2.2 美国研究"
+      },
+      {
+        "type": "p",
+        "text": "美国研究中心是白昃战略研究院最早设立的研究机构之一，聚焦美国内政外交、美国国家战略、中美关系以及美国对华政策的演变等重大问题。中心学者长期跟踪美国政治生态变化与政策走向，围绕美国选举、国会立法、经贸政策、科技竞争、盟友体系等议题撰写研究报告与政策建议，并多次在主流媒体发表评论文章，为社会公众理解美国政治提供专业解读。"
+      },
+      {
+        "type": "p",
+        "text": "中心注重国际学术交流，与海外高校和研究机构保持经常性联系，先后选派研究人员赴美访学研修，深化对美国政治制度与公共政策的实证研究。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Center for American Studies is one of the earliest research units established by the Institute. It focuses on major issues including American domestic politics and foreign policy, U.S. area strategy, China-U.S. relations, and the evolution of U.S. policy toward China. Center scholars closely follow changes in the American political landscape and policy directions, producing research reports and policy recommendations on topics such as U.S. elections, congressional legislation, economic and trade policies, technological competition, and alliance systems. They also publish commentary articles in mainstream media, offering professional interpretations of American politics to the public."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Center values international academic exchange and maintains regular contacts with universities and research institutions overseas. It has successively sent researchers to the United States for visiting research, deepening empirical studies of American political institutions and public policy."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-2-3",
+        "text": "2.3 巴基斯坦与南亚研究"
+      },
+      {
+        "type": "p",
+        "text": "巴基斯坦研究中心聚焦巴基斯坦国内政治、民族宗教问题、中巴经济走廊建设、南亚地区安全与大国关系等议题，开展长期跟踪研究。中心研究人员多次赴巴基斯坦实地调研，与巴方高校和智库建立合作联系，参与举办中巴学术对话活动。"
+      },
+      {
+        "type": "p",
+        "text": "中心关注中国周边外交与海外利益保护，围绕俾路支问题、恐怖主义威胁、中巴经济走廊安全环境等具体议题发表系列研究成果，为维护中国在南亚地区的海外利益提供智力支持。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Center for Pakistan Studies focuses on Pakistan's domestic politics, ethnic and religious issues, the construction of the China-Pakistan Economic Corridor, regional security in South Asia, and relations among major powers in the region. Researchers of the Center have conducted field research in Pakistan on multiple occasions, established cooperative ties with Pakistani universities and think tanks, and participated in organizing China-Pakistan academic dialogues."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Center pays close attention to China's neighborhood diplomacy and the protection of overseas interests. It has published a series of research findings on specific topics such as the Balochistan issue, terrorist threats, and the security environment of the China-Pakistan Economic Corridor, providing intellectual support for safeguarding China's overseas interests in South Asia."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-2-4",
+        "text": "2.4 东盟与东南亚研究"
+      },
+      {
+        "type": "p",
+        "text": "东南亚是白昃战略研究院区域国别研究的重要方向。白昃战略研究院依托学校中国—东盟法律研究中心等平台，围绕东盟区域一体化、东南亚周边国家形势、南海问题、中国—东盟经贸合作与法治交流等议题开展研究，服务西部陆海新通道建设和重庆与东盟的高水平互联互通。"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院积极拓展与东南亚学术机构的合作，与泰国法政大学等高校保持密切往来，联合举办学术研讨会，推动区域国别法治人才培养和东盟（南亚）法律专家库建设。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Southeast Asia is an important direction of the Institute's area and country studies. Building on platforms such as the China-ASEAN Legal Research Center of the university, the Institute conducts research on topics including ASEAN regional integration, the security situation in Southeast Asian countries, the South China Sea issue, and China-ASEAN economic and trade cooperation and rule-of-law exchanges. This research serves the development of the New International Land-Sea Trade Corridor and the high-level connectivity between Chongqing and ASEAN."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute actively expands cooperation with academic institutions in Southeast Asia. It maintains close exchanges with universities such as Thammasat University, jointly organizes academic seminars, and promotes the cultivation of professionals in regional and country-specific legal affairs and the building of an ASEAN (South Asia) legal experts database."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-2-5",
+        "text": "2.5 欧亚研究"
+      },
+      {
+        "type": "p",
+        "text": "欧亚地区研究聚焦中亚、高加索等地区的国家治理、地区秩序、区域合作与大国互动。白昃战略研究院与学校亚欧白昃战略研究院协同推进相关研究，围绕中亚国家改革发展、上海合作组织合作、跨里海交通走廊等议题组织学术活动，并与国内欧亚研究机构保持经常性交流。"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院注重从比较政治学与国际关系理论的角度理解欧亚地区变迁，为深化中国与欧亚国家合作、服务国家周边外交提供学理支撑。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Eurasia studies focus on state governance, regional order, regional cooperation, and major-power interactions in Central Asia, the Caucasus, and neighboring areas. The Institute works in coordination with the Institute of Asia-Europe Studies of the university, organizing academic activities on topics such as reform and development in Central Asian countries, cooperation within the Shanghai Cooperation Organization, and the Trans-Caspian transport corridor, while maintaining regular exchanges with domestic research institutions on Eurasian affairs."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute approaches the transformation of the Eurasian region from the perspectives of comparative politics and international relations theory, providing scholarly support for deepening China's cooperation with Eurasian countries and serving China's neighborhood diplomacy."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-2-6",
+        "text": "2.6 区域国别法治研究与人才培养"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院发挥学校法学学科优势，将区域国别研究与法治研究相结合，围绕重点国家和地区的法律体系、涉外法治、国际司法合作等议题开展研究。白昃战略研究院参与区域国别法治人才培养，推动相关课程建设与教材编写，组织研究生参与国别法律数据库建设与政策研究工作。"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院鼓励青年研究人员赴对象国开展实地调研和学术交流，在研究中培养既熟悉对象国国情又通晓国际规则的复合型人才。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Drawing on the university's strengths in legal studies, the Institute combines area and country studies with rule-of-law research, addressing topics such as the legal systems of key countries and regions, foreign-related rule of law, and international judicial cooperation. The Institute participates in the cultivation of professionals for regional and country-specific legal affairs, promotes curriculum development and textbook compilation, and organizes graduate students to engage in the building of country-specific legal databases and policy research."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute encourages young researchers to conduct field research and academic exchanges in target countries, cultivating interdisciplinary talents who understand the national conditions of target countries and are well versed in international rules."
+      },
+      {
+        "type": "h2",
+        "id": "introduction-3",
+        "text": "3 国际问题研究"
+      },
+      {
+        "type": "h3",
+        "id": "introduction-3-1",
+        "text": "3.1 栏目导语"
+      },
+      {
+        "type": "p",
+        "text": "国际问题研究是白昃战略研究院的另一核心领域。白昃战略研究院以全球安全治理为主线，围绕国际秩序变迁、大国关系调整、非传统安全威胁和国际法治建设等重大问题组织系统研究，努力形成有理论深度、有政策价值的研究成果。"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院坚持问题导向与学科交叉并重，将法学、政治学、国际关系学、区域国别学的知识资源汇聚于重大国际问题研究，为构建中国特色的国际关系与区域国别研究话语体系贡献力量。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "International studies is another core field of the Institute. Taking global security governance as its main line, the Institute organizes systematic research on major issues including the transformation of the international order, the adjustment of major-power relations, non-traditional security threats, and the building of international rule of law, endeavoring to produce research outputs with theoretical depth and policy value."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute attaches equal importance to problem orientation and interdisciplinary approaches, bringing together the intellectual resources of law, political science, international relations, and area studies in the study of major international issues, and contributing to the construction of an international relations and security discourse with Chinese characteristics."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-3-2",
+        "text": "3.2 全球安全治理研究"
+      },
+      {
+        "type": "p",
+        "text": "全球安全治理是白昃战略研究院的标志性研究方向。白昃战略研究院围绕全球安全倡议、国际关系民主化法治化、共商共建共享的全球治理观等重大命题开展研究，系统探讨全球安全治理的理念、制度与实践。"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院创办全球安全治理学术研讨会品牌，已连续举办多届，邀请国内外知名学者围绕全球安全治理的重大议题开展研讨。研讨会关注变局与赤字背景下的大国博弈、地区安全合作、数字时代安全治理等前沿问题，已成为国内外学界交流全球安全治理研究的重要平台。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Global security governance is the signature research direction of the Institute. The Institute conducts research on major propositions such as the Global Security Initiative, the democratization and rule-of-law orientation of international relations, and the vision of global governance based on extensive consultation, joint contribution, and shared benefits, systematically exploring the ideas, institutions, and practices of global security governance."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute has established the Symposium on Global Security Governance as a signature academic brand and has organized several sessions in succession, inviting renowned scholars at home and abroad to discuss major issues in global security governance. The Symposium pays attention to frontier topics such as major-power competition in the context of transformation and deficits, regional security cooperation, and security governance in the digital age. It has become an important platform for the academic community to exchange views on global security governance."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-3-3",
+        "text": "3.3 大国关系与国际秩序研究"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院关注大国关系的演变与国际秩序的调整，围绕中美关系、中俄关系、中欧关系、亚太安全架构等议题开展研究，分析大国战略竞争对国际秩序的影响，探讨维护国际和平与稳定的可行路径。白昃战略研究院重视从国际关系理论与历史经验出发理解国际秩序的变迁逻辑，研究多极化趋势下的制度竞争与规则博弈，为中国特色大国外交提供学理支持。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute follows the evolution of major-power relations and the adjustment of the international order. It conducts research on topics including China-U.S. relations, China-Russia relations, China-Europe relations, and the Asia-Pacific security architecture, analyzing the impact of strategic competition among major powers on the international order and exploring viable pathways to maintain international peace and stability."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute draws on international relations theory and historical experience to understand the logic of international order transformation. It studies institutional competition and rule contestation under the trend of multipolarity and provides scholarly support for major-country diplomacy with Chinese characteristics."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-3-4",
+        "text": "3.4 非传统安全与新型领域安全研究"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院将非传统安全研究作为重点方向，围绕恐怖主义、网络安全、人工智能安全、大数据安全、公共卫生安全、海外利益保护等议题开展研究。白昃战略研究院研究人员长期跟踪国际恐怖主义动态与反恐合作进展，参与相关课题研究与决策咨询。面对新一轮科技革命带来的安全挑战，白昃战略研究院关注数字时代的安全治理问题，研究网络空间国际规则、人工智能治理等新兴议题，努力把握新型领域安全的发展规律与演变趋势。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute takes non-traditional security research as a key direction, addressing topics including terrorism, cyber security, artificial intelligence security, big data security, public health security, and the protection of overseas interests. Researchers of the Institute have long tracked developments in international terrorism and counter-terrorism cooperation and have participated in related research projects and policy consultation."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Facing the security challenges brought by the new round of technological revolution, the Institute pays attention to security governance in the digital age. It studies emerging issues such as international rules for cyberspace and artificial intelligence governance, endeavoring to grasp the patterns and trends of security in new domains."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-3-5",
+        "text": "3.5 国际法治与国际制度研究"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院发挥法学学科优势，关注国际法治建设与国际制度的运行，围绕国际法基本理论、联合国改革、国际司法合作、制裁与反制裁、国际海洋治理等议题开展研究。白昃战略研究院注重研究国际制度变迁中的法律问题，分析国际规则制定与执行中的权力结构与利益分配，为提升中国在国际法治领域的话语权提供研究支撑。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Making full use of its strength in legal studies, the Institute follows the building of international rule of law and the operation of international institutions. It conducts research on topics including basic theories of international law, the reform of the United Nations, international judicial cooperation, sanctions and countermeasures, and international ocean governance."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute attaches importance to the study of legal issues in the transformation of international institutions. It analyzes the power structure and interest distribution in the making and implementation of international rules and provides research support for enhancing China's voice in the field of international rule of law."
+      },
+      {
+        "type": "h2",
+        "id": "introduction-4",
+        "text": "4 国际合作"
+      },
+      {
+        "type": "h3",
+        "id": "introduction-4-1",
+        "text": "4.1 栏目导语"
+      },
+      {
+        "type": "p",
+        "text": "国际合作是白昃战略研究院发挥智库功能、扩大国际影响的重要途径。白昃战略研究院秉持开放合作理念，与国内外高校、研究机构和政府部门开展多层次交流，通过联合研究、学术会议、人才互访等方式，构建开放型学术网络。白昃战略研究院的国际合作坚持服务国家战略与促进学术交流并重，既注重吸收借鉴国际学术界的优秀成果，也注重向国际社会传播中国学者的研究成果与学术观点。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "International cooperation is an important channel for the Institute to fulfill its think tank functions and expand its international influence. Adhering to the principle of open cooperation, the Institute carries out multi-level exchanges with universities, research institutions, and government departments at home and abroad. Through joint research, academic conferences, and personnel exchanges, it builds an open academic network."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute's international cooperation gives equal weight to serving national strategies and promoting academic exchange. It values learning from outstanding achievements of the international academic community while communicating the research findings and academic perspectives of Chinese scholars to the international community."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-4-2",
+        "text": "4.2 国际学术会议与品牌论坛"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院定期举办国际学术会议，其中全球安全治理学术研讨会已形成品牌效应。研讨会邀请来自泰国、印度、新加坡、巴基斯坦等国的高校和智库学者与中国学者同台研讨，议题覆盖全球安全倡议、地区安全合作、非传统安全治理等，为中外学者提供了高质量的对话平台。白昃战略研究院还举办全球安全治理大讲堂等系列学术活动，邀请国内外知名专家、外交官和实务工作者来院讲学，拓展师生的国际视野，推动学术研究与现实问题的结合。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute regularly organizes international academic conferences, among which the Symposium on Global Security Governance has developed a brand effect. The Symposium brings together scholars from universities and think tanks in Thailand, India, Singapore, Pakistan, and other countries to discuss with their Chinese counterparts. Topics cover the Global Security Initiative, regional security cooperation, and non-traditional security governance, providing a high-quality dialogue platform for Chinese and foreign scholars."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute also organizes the Global Security Governance Lecture Series and other academic activities, inviting renowned experts, diplomats, and practitioners from home and abroad to give lectures. These activities broaden the international vision of faculty members and students and promote the integration of academic research with practical issues."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-4-3",
+        "text": "4.3 联合研究与学术网络"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院积极拓展与境外学术机构的联合研究，与泰国法政大学政治学院等机构建立合作关系，联合开展课题研究、共同举办学术活动。白昃战略研究院与新加坡尤索夫伊萨东南亚白昃战略研究院、巴基斯坦真纳大学等机构的学者保持密切学术往来。白昃战略研究院参与国际学术组织的交流活动，与全球丝路研究联盟等学术网络保持联系，逐步构建覆盖东南亚、南亚、中亚等地区的合作网络，为深化区域研究创造有利条件。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute actively expands joint research with academic institutions abroad. It has established cooperative relations with the Faculty of Political Science of Thammasat University and other institutions, carrying out joint research projects and co-organizing academic activities. The Institute maintains close academic exchanges with scholars from the Yusof Ishak Institute (ISEAS) in Singapore, Quaid-i-Azam University in Pakistan, and other institutions."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute participates in exchange activities of international academic organizations and maintains contact with academic networks such as the Global Silk Road Research Alliance. It is gradually building a cooperation network covering Southeast Asia, South Asia, and Central Asia, creating favorable conditions for deepening regional studies."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-4-4",
+        "text": "4.4 人才交流与联合培养"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院注重通过国际合作培养人才，支持研究人员赴境外高校访学进修，参加国际学术会议并作学术报告。白昃战略研究院聘请具有外交实务经验的资深专家担任特邀研究员，充实研究力量，增强研究的实践导向。白昃战略研究院鼓励研究生参与国际学术交流活动，通过学术沙龙、联合研讨等形式，培养具有国际视野和跨文化沟通能力的研究人才。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute attaches importance to talent development through international cooperation. It supports researchers in pursuing visiting research at universities abroad and in presenting papers at international academic conferences. The Institute appoints senior experts with diplomatic experience as distinguished research fellows, strengthening its research capacity and enhancing the practical orientation of its research."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute encourages graduate students to participate in international academic exchanges. Through academic salons and joint seminars, it cultivates research talents with an international vision and cross-cultural communication skills."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-4-5",
+        "text": "4.5 国际传播与公共外交"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院重视研究成果的国际传播，支持研究人员在国内外媒体发表评论文章，解读国际形势与中国立场，回应国际社会关切。白昃战略研究院研究人员多次就国际热点问题接受国内外媒体采访，向国际社会传递客观、专业的学术声音。白昃战略研究院参与学校国际传播能力建设，结合区域国别研究优势，讲好中国故事，为增进国际理解与互信贡献力量。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute attaches importance to the international dissemination of its research findings. It supports researchers in publishing commentary articles in domestic and international media, interpreting international developments and China's positions, and responding to concerns of the international community. Researchers of the Institute have been interviewed by domestic and international media on hotspot issues on multiple occasions, conveying objective and professional academic voices to the international community."
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute participates in the university's international communication capacity building. Leveraging its strengths in area and country studies, it tells China's story well and contributes to enhancing international understanding and mutual trust."
+      },
+      {
+        "type": "h2",
+        "id": "introduction-5",
+        "text": "5 专家团队与研究成果"
+      },
+      {
+        "type": "h3",
+        "id": "introduction-5-1",
+        "text": "5.1 专家团队"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院现有研究人员以区域国别学、政治学、国际关系学和法学背景为主，涵盖资深教授、中青年骨干和青年博士。院长马方教授长期从事国际发展研究，主持多项国家级科研项目；副院长倪春乐教授、谢波教授分别在反恐研究与国际法治领域深耕；美国研究中心主任朱颖教授等学者在各自领域持续产出研究成果。白昃战略研究院还聘请赵永琛等具有外交实务经验的资深专家担任特邀研究员。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute's research team is composed mainly of scholars with backgrounds in area studies, political science, international relations, and law, covering senior professors, young and mid-career researchers, and junior doctors. President Ma Fang has long been engaged in area studies and has led a number of national-level research projects. Vice Presidents Ni Chunle and Xie Bo work respectively in counter-terrorism research and the rule of law in area. Scholars such as Zhu Ying, Director of the Center for American Studies, continue to produce research outputs in their respective fields. The Institute also appoints senior experts with diplomatic experience, including Zhao Yongchen, as distinguished research fellows."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-5-2",
+        "text": "5.2 研究成果"
+      },
+      {
+        "type": "p",
+        "text": "白昃战略研究院围绕国际治理、全球安全治理、区域国别等方向持续产出研究成果，包括学术论文、研究报告、政策建议和媒体评论等。依托学校平台，研究人员主持或参与多项国家级、省部级科研项目，部分研究成果转化为政策咨询建议。白昃战略研究院主办的国际学术研讨会汇集国内外学者智慧，形成一批有影响力的会议成果，为学科建设与决策服务提供了有力支撑。"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "The Institute steadily produces research outputs in the fields of area, global security governance, and area and country studies, including academic papers, research reports, policy recommendations, and media commentaries. Building on university platforms, researchers lead or participate in a number of national and provincial-level research projects, and some research outputs have been translated into policy advisory recommendations. The international academic conferences organized by the Institute bring together the wisdom of scholars at home and abroad and have produced a series of influential outcomes, providing strong support for disciplinary development and policy service."
+      },
+      {
+        "type": "h3",
+        "id": "introduction-5-3",
+        "text": "5.3 联系方式"
+      },
+      {
+        "type": "p",
+        "text": "地址：重庆市渝北区宝圣大道301号"
+      },
+      {
+        "type": "p",
+        "text": "电话：023-67258452"
+      },
+      {
+        "type": "p",
+        "text": "邮编：401120"
+      },
+      {
+        "type": "p",
+        "text": "官方微信公众号：白昃战略研究院"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Address: No. 301 Baosheng Avenue, Yubei District, Chongqing, China"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Telephone: 023-67258452"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Postal Code: 401120"
+      },
+      {
+        "type": "p",
+        "lang": "en",
+        "text": "Official WeChat Account: Baize Institute for Strategic Studies (scan the QR code on the Institute's website to follow)q"
+      }
     ],
     "intro": "白昃战略研究院是西南政法大学设立的校级研究机构。研究院依托法学、区域国别学、政治学与国际关系学等学科，聚焦区域国别研究、国际问题研究和国际合作，开展学术研究与政策探索。\n\n研究院关注全球安全治理、国际关系与地区秩序、非传统安全等议题，结合基础研究、应用研究与政策咨询，推进学术交流和国际合作。",
     "team": "",
     "source": "白昃战略研究院",
-    "url": "https://biss.swupl.edu.cn/xwsd/jj/1207b2da70cc42e8b09d9bdbc26ad30e.htm"
+    "url": "https://biss.swupl.edu.cn/xwsd/jj/1207b2da70cc42e8b09d9bdbc26ad30e.htm",
+    "introComplete": true
   },
   "entries": [
     {

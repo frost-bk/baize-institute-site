@@ -81,6 +81,11 @@ const assetNames = await readdir(join(root,'assets'));
 for (const value of Object.values(config.covers)) {
   if (!assetNames.includes(value.file)) throw Error('封面图缺失：'+value.file);
 }
+const gallery = config.gallery ?? {order:[],items:{}};
+for (const [id, item] of Object.entries(gallery.items)) {
+  if (!/^[a-z0-9-]+$/.test(id) || !assetNames.includes(item.file)) throw Error('图文资料编号或图片不正确：'+id);
+}
+if (gallery.order.some(id=>!Object.hasOwn(gallery.items,id))) throw Error('图文资料顺序包含未知编号。');
 const school = 'https://www.swupl.edu.cn/';
 
 function page({prefix,title,current,description,body}) {
@@ -163,7 +168,7 @@ const home = opening + `<div class="portal-strip"><nav class="wrap portal-grid" 
 </div>`;
 
 function top(title,en,desc,prefix) {
-  return `<div class="page-top"><div class="wrap"><p class="crumb"><a href="${prefix}">首页</a> <span>›</span> ${title}</p><p class="eyebrow">${en}</p><h1>${title}</h1>${desc?`<p>${escape(desc)}</p>`:''}</div></div>`;
+  return `<div class="page-top"><div class="wrap"><p class="crumb"><a href="${prefix}">首页</a> <span>›</span> ${escape(title)}</p><p class="eyebrow">${escape(en)}</p><h1>${escape(title)}</h1>${desc?`<p>${escape(desc)}</p>`:''}</div></div>`;
 }
 function filters(items,prefix, search=false) {
   if (!items.length) return empty('暂无相关内容。');
@@ -186,17 +191,40 @@ function sectionPage(key) {
   return top(title,en,texts[key],prefix)+`<div class="wrap page-body">${researchNav}${resources}${filters(listFor(key),prefix)}</div>`;
 }
 const introBlocks = Array.isArray(about.introBlocks) ? about.introBlocks : [];
+const introChapters = introBlocks.filter(block=>block.type==='h2' && block.id);
+function introBlock(block) {
+  const tag = block.type === 'h2' ? 'h3' : block.type === 'h3' ? 'h4' : 'p';
+  const id = block.id ? ` id="${escape(block.id)}"` : '';
+  const lang = block.lang === 'en' ? ' lang="en"' : '';
+  return `<${tag}${id}${lang}>${escape(block.text)}</${tag}>`;
+}
+function galleryImage(item, prefix, lazy = true) {
+  return `<img src="${prefix}assets/${escape(item.file)}" alt="${escape(item.alt)}" width="473" height="314"${lazy?' loading="lazy"':''}>`;
+}
+function galleryGrid(prefix) {
+  return `<div class="gallery-grid">${gallery.order.map(id=>{
+    const item = gallery.items[id];
+    return `<a class="gallery-card" href="${prefix}about/gallery/${id}/"><span class="gallery-image">${galleryImage(item,prefix)}</span><span class="gallery-caption"><strong>${escape(item.title)}</strong> <span aria-hidden="true">↗</span></span></a>`;
+  }).join('')}</div>`;
+}
 const aboutPage = top('研究院概况','ABOUT THE INSTITUTE','','../')+`<div class="wrap page-body profile-grid">
-  <nav class="profile-nav" aria-label="本页目录"><a href="#introduction">研究院简介</a><a href="#research-areas">研究方向</a>${about.team?'<a href="#team">研究团队</a>':''}</nav>
+  <nav class="profile-nav" aria-label="概况页目录"><a href="#introduction">研究院简介</a>${introChapters.map(block=>`<a href="#${escape(block.id)}">${escape(block.text)}</a>`).join('')}${about.team?'<a href="#team">研究团队</a>':''}<a href="#research-areas">研究方向</a>${gallery.order.length?'<a href="gallery/">图文资料 ↗</a>':''}</nav>
   <div class="profile-body prose">
     <article id="introduction"><header class="profile-title"><h2>${escape(about.title || '西南政法大学白昃战略研究院简介')}</h2>
     ${about.date?`<time datetime="${escape(about.date)}">${escape(printDate(about.date))}</time>`:''}</header>
-    ${introBlocks.map(block=>{ const tag=['h2','h3','p'].includes(block.type) ? block.type : 'p'; return `<${tag}>${escape(block.text)}</${tag}>`; }).join('')}
+    ${introBlocks.map(introBlock).join('')}
     ${about.introComplete ? '' : formatBody(about.intro)}</article>
     <section id="research-areas"><h2>研究方向</h2><div class="direction-grid mini">${config.directions.map(x=>`<article><h3>${escape(x.name)}</h3><p>${escape(x.description)}</p></article>`).join('')}</div></section>
     ${about.team?`<section id="team"><h2>研究团队</h2>${formatBody(about.team)}</section>`:''}
+    ${gallery.order.length?`<section id="gallery"><div class="section-title"><h2>图文资料</h2><a class="text-link" href="gallery/">查看全部 <span aria-hidden="true">→</span></a></div>${galleryGrid('../')}</section>`:''}
   </div>
 </div>`;
+const galleryPage = top('图文资料','PHOTO ARCHIVE','','../../')+`<div class="wrap page-body"><nav class="subnav" aria-label="研究院概况子栏目"><a href="../">研究院简介</a><a href="./" aria-current="page">图文资料</a></nav>${galleryGrid('../../')}</div>`;
+const galleryDetail = (item) => `<article class="wrap article-shell">
+  <p class="crumb"><a href="../../../">首页</a> <span>›</span> <a href="../../">研究院概况</a> <span>›</span> <a href="../">图文资料</a></p>
+  <h1>${escape(item.title)}</h1><figure class="article-figure gallery-figure">${galleryImage(item,'../../../',false)}<figcaption>图片来源：西南政法大学新闻网</figcaption></figure>
+  <div class="actions"><a class="button line" href="../">返回图文资料</a></div>
+</article>`;
 const eventPage = top('学术活动','ACADEMIC EVENTS','回顾研究院参与和组织的公开学术交流。','../')+`<div class="wrap page-body">
   ${feature ? `<article class="event">${cover(feature,'../')}<div><p class="eyebrow">${printDate(config.forum.date)} · ${escape(config.forum.place)}</p><h2>${escape(config.forum.title)}</h2><p>${escape(config.forum.summary)}</p><p class="small">图片来源 ${linkOut(config.forum.source,'复旦大学中国研究院')}</p><div class="actions"><a class="button solid" href="../${articlePath(feature.id)}">查看报道</a></div></div></article>`:''}
   <section class="block">${caption('ANNOUNCEMENTS','会议与通知','../notices/')}${rows(notice,'../','暂无公开会议通知。')}</section>
@@ -222,6 +250,8 @@ const searchPage=top('站内搜索','SEARCH','查找已发布的新闻、评论�
 const routes = [
   ['index.html',{prefix:'',current:'home',body:home}],
   ['about/index.html',{prefix:'../',title:'研究院概况',current:'about',body:aboutPage}],
+  ['about/gallery/index.html',{prefix:'../../',title:'图文资料',current:'about',body:galleryPage}],
+  ...Object.entries(gallery.items).map(([id,item])=>[`about/gallery/${id}/index.html`,{prefix:'../../../',title:item.title,current:'about',body:galleryDetail(item)}]),
   ['events/index.html',{prefix:'../',title:'学术活动',current:'events',body:eventPage}],
   ['search/index.html',{prefix:'../',title:'站内搜索',current:'search',body:searchPage}],
   ['404.html',{prefix:basePath,title:'页面未找到',body:`<div class="wrap page-body"><h1>页面未找到</h1><p>请通过导航查找相关栏目。</p><div class="actions"><a class="button solid" href="${basePath}">返回首页</a></div></div>`}],

@@ -3,7 +3,7 @@
   "selections": [],
   "compatibility": {
     "index.htm": "",
-    "xwsd/index.htm": "about/",
+    "xwsd/index.htm": "about/gallery/",
     "xwsd/jj/index.htm": "about/",
     "xwsd/td/index.htm": "about/",
     "hyxxjsp/index.htm": "research/",
@@ -15,6 +15,31 @@
     "sspl/index.htm": "commentary/"
   },
   "resourceTopics": {},
+  "gallery": {
+    "order": ["spirit-symposium", "theory-study", "rule-of-law", "branch-review", "spirit-symposium", "rule-of-law"],
+    "items": {
+      "spirit-symposium": {
+        "title": "“中国共产党人精神谱系与马克思主义中国化时代化”学术研讨会",
+        "file": "archive-spirit-symposium.png",
+        "alt": "学术研讨会海报"
+      },
+      "theory-study": {
+        "title": "学校召开党委理论学习中心组（扩大）2023年第1次集中学习会",
+        "file": "archive-theory-study.png",
+        "alt": "党委理论学习中心组集中学习会现场"
+      },
+      "rule-of-law": {
+        "title": "全面依法治国研究院入选重庆市人文社会科学重点研究基地",
+        "file": "archive-rule-of-law.png",
+        "alt": "全面依法治国研究院图文资料配图"
+      },
+      "branch-review": {
+        "title": "2022年度二级党组织书记抓基层党建暨专职组织员述职评议会",
+        "file": "archive-branch-review.png",
+        "alt": "基层党建述职评议会现场"
+      }
+    }
+  },
   "forum": {
     "title": "第四届“全球安全治理”学术研讨会",
     "date": "2025-12-19",
