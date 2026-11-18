@@ -1,0 +1,5 @@
+/Netlify上传目录/
+/.build-*/
+/.previous-*/
+*.zip
+*.input

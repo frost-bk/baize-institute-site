@@ -1,0 +1,34 @@
+{
+  "featured": "original-86b1ccb9c9124192857b4c8d36ae32e1",
+  "selections": [],
+  "compatibility": {
+    "index.htm": "",
+    "xwsd/index.htm": "about/",
+    "xwsd/jj/index.htm": "about/",
+    "xwsd/td/index.htm": "about/",
+    "hyxxjsp/index.htm": "research/",
+    "hyxxjsp/yjbg/index.htm": "research/",
+    "hyxxjsp/kydt/index.htm": "research-updates/",
+    "zytz/index.htm": "notices/",
+    "xwss/index.htm": "news/",
+    "zygx/index.htm": "resources/",
+    "sspl/index.htm": "commentary/"
+  },
+  "resourceTopics": {},
+  "forum": {
+    "title": "第四届“全球安全治理”学术研讨会",
+    "date": "2025-12-19",
+    "place": "重庆",
+    "summary": "围绕全球治理倡议的时代内涵与世界意义，来自国内外高校及研究机构的学者在重庆开展交流。",
+    "source": "https://cifu.fudan.edu.cn/a2/1a/c412a762394/page.htm"
+  },
+  "directions": [
+    { "name": "区域国别研究", "description": "关注区域发展、地区秩序与国别问题。" },
+    { "name": "国际问题研究", "description": "关注全球安全治理、国际关系与非传统安全。" },
+    { "name": "国际合作", "description": "推动国内外高校及研究机构之间的学术交流。" }
+  ],
+  "covers": {
+    "original-86b1ccb9c9124192857b4c8d36ae32e1": { "file": "forum.jpg", "alt": "第四届全球安全治理学术研讨会现场", "credit": "复旦大学中国研究院" },
+    "weekly-20261110": { "file": "weekly.jpg", "alt": "白昃研究要闻综述封面", "credit": "白昃研究微信公众号" }
+  }
+}
